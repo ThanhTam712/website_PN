@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuộc thi đề tài 5 không 3 sạch</title>
+    <link rel="icon" href="anh.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom styles can be added here */
+    </style>
+</head>
+<body>
+<div class="start" onkeydown="return false">
+    <h1>Cuộc thi đề tài 5 không 3 sạch</h1>
+    <div class="continue_div">
+        <button id="continue">Bắt đầu</button>
+    </div>
+    <div class="continue_div">
+        <a href="index.html" class="buttons">
+            <h4 class="goHome-btn">Quay lại trang chủ</h4>
+        </a>
+    </div>
+</div>
+
+<div class="information" hidden>
+    <form id="user_information">
+        <h1>THÔNG TIN CÁ NHÂN</h1>
+        <div>
+            <input type="text" placeholder="Họ và tên" id="input_user_name">
+        </div>
+        <div>
+            <input type="text" placeholder="Đơn vị" id="input_user_id">
+        </div>
+        <div>
+            <input type="text" placeholder="Ngày sinh" id="input_user_class">
+        </div>
+        <div>
+            <input type="text" placeholder="Số điện thoại" id="input_user_major">
+        </div>
+        <input type="submit" value="Bắt đầu thi">
+    </form>
+</div>
+
+<div class="content" hidden>
+    <h3>Time: <span id="time"></span></h3>
+    <div class="question_div">
+        <div class="text_part">
+            <h1 id="question-text">1. Say hi to someone</h1>
+        </div>
+    </div>
+    <div class="option-list">
+        <button class="option" id="ans_1">A. 34oi</button>
+        <button class="option" id="ans_2">B. o0-s</button>
+        <button class="option" id="ans_3">C. 2i03</button>
+        <button class="option" id="ans_4">D. 9023</button>
+    </div>
+</div>
+
+<div class="back">
+    <div class="result-box">
+
+    </div>
+</div>
+
+<div class="ending" hidden></div>
+<script src="script.js"></script>
+</body>
+</html>
